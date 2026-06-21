@@ -1,21 +1,120 @@
 export default function App() {
+  const gallery = [
+    "/images/farm1.jpg",
+    "/images/farm2.jpg",
+    "/images/farm3.jpg",
+    "/images/farm4.jpg",
+    "/images/farm5.jpg",
+    "/images/farm6.jpg",
+  ];
+
+  const products = [
+    "Fresh Milk",
+    "Curd",
+    "Pure Ghee",
+    "Paneer",
+    "Butter",
+    "Cheese",
+  ];
+
   return (
-    <div style={{ padding: "40px", textAlign: "center" }}>
-      <h1>VRINDA FARMS</h1>
-      <p>Fresh Dairy Products From Farm To Door</p>
+    <div>
+      {/* Header */}
+      <header>
+        <div className="logo">VRINDA FARMS</div>
 
-      <h2>Our Products</h2>
-      <ul style={{ listStyle: "none" }}>
-        <li>Milk</li>
-        <li>Curd</li>
-        <li>Ghee</li>
-        <li>Paneer</li>
-        <li>Butter</li>
-        <li>Cheese</li>
-      </ul>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-      <p>📍 Hyderabad, Telangana</p>
-      <p>📞 9876543210</p>
+      {/* Hero */}
+      <section
+        className="hero"
+        style={{
+          backgroundImage: "url('/images/hero.jpg')",
+        }}
+      >
+        <div className="hero-content">
+          <h1>Fresh Dairy Products From Farm To Door</h1>
+
+          <p>
+            Pure Milk • Curd • Ghee • Paneer • Butter • Cheese
+          </p>
+
+          <a
+            href="https://wa.me/919876543210"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Order on WhatsApp
+          </a>
+        </div>
+      </section>
+
+      {/* About */}
+      <section id="about">
+        <h2 className="section-title">About VRINDA FARMS</h2>
+
+        <div className="about">
+          <p>
+            At VRINDA FARMS, we are committed to delivering fresh,
+            nutritious, and high-quality dairy products directly from
+            our farm to your doorstep. Our cows are cared for with love,
+            ensuring purity and freshness in every product we offer.
+          </p>
+        </div>
+      </section>
+
+      {/* Products */}
+      <section id="products">
+        <h2 className="section-title">Our Products</h2>
+
+        <div className="products">
+          {products.map((item, index) => (
+            <div className="product-card" key={index}>
+              <img src="/images/hero.jpg" alt={item} />
+              <h3>{item}</h3>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Gallery */}
+      <section id="gallery">
+        <h2 className="section-title">Farm Gallery</h2>
+
+        <div className="gallery">
+          {gallery.map((img, index) => (
+            <img key={index} src={img} alt="Farm" />
+          ))}
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section id="contact" className="contact">
+        <h2>Contact Us</h2>
+
+        <p>📍 Hyderabad, Telangana</p>
+        <p>📞 9876543210</p>
+
+        <a
+          href="https://wa.me/919876543210"
+          className="whatsapp-btn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          WhatsApp Us
+        </a>
+      </section>
+
+      <footer>
+        © 2026 VRINDA FARMS | Fresh Dairy Products
+      </footer>
     </div>
   );
 }
