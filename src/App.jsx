@@ -92,9 +92,24 @@ const products = [
           </p>
         </div>
       </section>
-
+      
       {/* Products */}
-    <section id="gallery" className="premium-gallery">
+<section id="products">
+  <h2 className="section-title">Our Products</h2>
+
+  <div className="products">
+    {products.map((product, index) => (
+      <div className="product-card" key={index}>
+        <img src={product.image} alt={product.name} />
+        <h3>{product.name}</h3>
+        <p className="price">{product.price}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+      {/* Gallery */}
+<section id="gallery" className="premium-gallery">
   <h2 className="section-title">Life at VRINDA FARMS</h2>
 
   <div className="gallery-grid">
@@ -106,16 +121,6 @@ const products = [
   </div>
 </section>
 
-      {/* Gallery */}
-      <section id="gallery">
-        <h2 className="section-title">Farm Gallery</h2>
-
-        <div className="gallery">
-          {gallery.map((img, index) => (
-            <img key={index} src={img} alt="Farm" />
-          ))}
-        </div>
-      </section>
 
       {/* Contact */}
       <section id="contact" className="contact">
