@@ -98,13 +98,14 @@ const products = [
         <h2 className="section-title">Our Products</h2>
 
         <div className="products">
-          {products.map((product, index) => (
-            <div className="product-card" key={index}>
-              <img src={product.image} alt={product.name} />
-              <h3>{product.name}</h3>
-            </div>
-          ))}
-        </div>
+  {products.map((product, index) => (
+    <div className="product-card" key={index}>
+      <img src={product.image} alt={product.name} />
+      <h3>{product.name}</h3>
+      <p className="price">{product.price}</p>
+    </div>
+  ))}
+</div>
       </section>
 
       {/* Gallery */}
