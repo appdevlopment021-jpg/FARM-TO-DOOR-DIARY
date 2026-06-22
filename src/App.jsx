@@ -9,12 +9,30 @@ export default function App() {
   ];
 
   const products = [
-    "Fresh Milk",
-    "Curd",
-    "Pure Ghee",
-    "Paneer",
-    "Butter",
-    "Cheese",
+    {
+      name: "Fresh Milk",
+      image: "/images/milk.jpg",
+    },
+    {
+      name: "Curd",
+      image: "/images/curd.jpg",
+    },
+    {
+      name: "Pure Ghee",
+      image: "/images/ghee.jpg",
+    },
+    {
+      name: "Paneer",
+      image: "/images/paneer.jpg",
+    },
+    {
+      name: "Butter",
+      image: "/images/butter.jpg",
+    },
+    {
+      name: "Cheese",
+      image: "/images/cheese.jpg",
+    },
   ];
 
   return (
@@ -75,10 +93,10 @@ export default function App() {
         <h2 className="section-title">Our Products</h2>
 
         <div className="products">
-          {products.map((item, index) => (
+          {products.map((product, index) => (
             <div className="product-card" key={index}>
-              <img src="/images/hero.jpg" alt={item} />
-              <h3>{item}</h3>
+              <img src={product.image} alt={product.name} />
+              <h3>{product.name}</h3>
             </div>
           ))}
         </div>
