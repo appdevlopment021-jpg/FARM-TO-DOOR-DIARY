@@ -21,9 +21,19 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-size: 30px;
   font-weight: bold;
 }
+
+.logo img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
 
 nav a {
   color: white;
