@@ -43,7 +43,10 @@ const products = [
     <div>
       {/* Header */}
       <header>
-        <div className="logo">VRINDA FARMS</div>
+        <div className="logo">
+  <img src="/images/logo.png" alt="Vrinda Farms Logo" />
+  <span>VRINDA FARMS</span>
+</div>
 
         <nav>
           <a href="#about">About</a>
