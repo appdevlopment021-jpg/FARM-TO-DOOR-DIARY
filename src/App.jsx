@@ -94,19 +94,17 @@ const products = [
       </section>
 
       {/* Products */}
-      <section id="products">
-        <h2 className="section-title">Our Products</h2>
+    <section id="gallery" className="premium-gallery">
+  <h2 className="section-title">Life at VRINDA FARMS</h2>
 
-        <div className="products">
-  {products.map((product, index) => (
-    <div className="product-card" key={index}>
-      <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p className="price">{product.price}</p>
-    </div>
-  ))}
-</div>
-      </section>
+  <div className="gallery-grid">
+    {gallery.map((img, index) => (
+      <div className="gallery-card" key={index}>
+        <img src={img} alt={`Farm ${index + 1}`} />
+      </div>
+    ))}
+  </div>
+</section>
 
       {/* Gallery */}
       <section id="gallery">
