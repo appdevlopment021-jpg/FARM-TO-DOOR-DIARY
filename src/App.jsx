@@ -5,7 +5,6 @@ export default function App() {
   "/images/farm3.jpg",
   "/images/farm4.jpg",
   "/images/farm5.jpg",
-  "/images/farm6.jpg",
 ];
 const products = [
   {
