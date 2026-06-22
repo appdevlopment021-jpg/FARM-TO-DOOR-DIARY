@@ -7,33 +7,38 @@ export default function App() {
     "/images/farm5.jpg",
     "/images/farm6.jpg",
   ];
-
-  const products = [
-    {
-      name: "Fresh Milk",
-      image: "/images/milk.jpg",
-    },
-    {
-      name: "Curd",
-      image: "/images/curd.jpg",
-    },
-    {
-      name: "Pure Ghee",
-      image: "/images/ghee.jpg",
-    },
-    {
-      name: "Paneer",
-      image: "/images/paneer.jpg",
-    },
-    {
-      name: "Butter",
-      image: "/images/butter.jpg",
-    },
-    {
-      name: "Cheese",
-      image: "/images/cheese.jpg",
-    },
-  ];
+const products = [
+  {
+    name: "Fresh Milk",
+    price: "₹70 / Litre",
+    image: "/images/milk.jpg",
+  },
+  {
+    name: "Curd",
+    price: "₹100 / Kg",
+    image: "/images/curd.jpg",
+  },
+  {
+    name: "Pure Ghee",
+    price: "₹900 / Litre",
+    image: "/images/ghee.jpg",
+  },
+  {
+    name: "Paneer",
+    price: "₹380 / Kg",
+    image: "/images/paneer.jpg",
+  },
+  {
+    name: "Butter",
+    price: "₹550 / Kg",
+    image: "/images/butter.jpg",
+  },
+  {
+    name: "Cheese",
+    price: "₹650 / Kg",
+    image: "/images/cheese.jpg",
+  },
+];
 
   return (
     <div>
