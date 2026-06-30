@@ -10,14 +10,24 @@ body {
   color: #333;
 }
 
-/* Header */
 header {
-  background: #0f766e;
-  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
   padding: 18px 8%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background: rgba(0,0,0,0.18);
+  backdrop-filter: blur(12px);
+
+  z-index: 1000;
+
+  transition: 0.4s;
 }
 
 .logo {
