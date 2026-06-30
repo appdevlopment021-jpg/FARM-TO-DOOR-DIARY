@@ -134,12 +134,35 @@ const products = [
 <section id="products">
   <h2 className="section-title">Our Products</h2>
 
- <div className="products">
+<div className="products">
   {products.map((product, index) => (
     <div className="product-card" key={index}>
+
+      <span className="badge">
+        {product.badge}
+      </span>
+
       <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p className="price">{product.price}</p>
+
+      <div className="product-content">
+
+        <h3>{product.name}</h3>
+
+        <p className="price">
+          {product.price}
+        </p>
+
+        <a
+          href="https://wa.me/919876543210"
+          className="order-btn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Order on WhatsApp
+        </a>
+
+      </div>
+
     </div>
   ))}
 </div>
