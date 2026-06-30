@@ -229,22 +229,40 @@ const products = [
 </section>
 
 
-      {/* Contact */}
-      <section id="contact" className="contact">
-        <h2>Contact Us</h2>
+    {/* Contact */}
+<section id="contact" className="contact">
 
-        <p>📍 Hyderabad, Telangana</p>
-        <p>📞 9876543210</p>
+  <h2 className="section-title">Get In Touch</h2>
 
-        <a
-          href="https://wa.me/919876543210"
-          className="whatsapp-btn"
-          target="_blank"
-          rel="noreferrer"
-        >
-          WhatsApp Us
-        </a>
-      </section>
+  <div className="contact-box">
+
+    <div className="contact-item">
+      <h3>📍 Address</h3>
+      <p>Hyderabad, Telangana</p>
+    </div>
+
+    <div className="contact-item">
+      <h3>📞 Phone</h3>
+      <p>+91 9876543210</p>
+    </div>
+
+    <div className="contact-item">
+      <h3>✉ Email</h3>
+      <p>vrindafarms@gmail.com</p>
+    </div>
+
+  </div>
+
+  <a
+    href="https://wa.me/919876543210"
+    className="whatsapp-btn"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Order on WhatsApp
+  </a>
+
+</section>
 
       <footer>
         © 2026 VRINDA FARMS | Fresh Dairy Products
