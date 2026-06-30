@@ -56,44 +56,58 @@ const products = [
         </nav>
       </header>
 
-      {/* Hero */}
-      <section
-        className="hero"
-        style={{
-          backgroundImage: "url('/images/hero.jpg')",
-        }}
-      >
-        <div className="hero-content">
-          <h1>Fresh Dairy Products From Farm To Door</h1>
+  {/* Hero */}
+<section
+  className="hero"
+  style={{
+    backgroundImage: "url('/images/hero.jpg')",
+  }}
+>
+  <div className="hero-overlay">
 
-          <p>
-            Pure Milk • Curd • Ghee • Paneer • Butter • Cheese
-          </p>
+    <div className="hero-card">
 
-          <a
-            href="https://wa.me/919876543210"
-            className="btn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Order on WhatsApp
-          </a>
-        </div>
-      </section>
+      <span className="hero-tag">
+        🌿 Welcome to Vrinda Farms
+      </span>
 
-      {/* About */}
-      <section id="about">
-        <h2 className="section-title">About VRINDA FARMS</h2>
+      <h1>
+        Farm Fresh Dairy,
+        <br />
+        Naturally Pure
+      </h1>
 
-        <div className="about">
-          <p>
-            At VRINDA FARMS, we are committed to delivering fresh,
-            nutritious, and high-quality dairy products directly from
-            our farm to your doorstep. Our cows are cared for with love,
-            ensuring purity and freshness in every product we offer.
-          </p>
-        </div>
-      </section>
+      <p>
+        Fresh milk, curd, ghee, paneer, butter and cheese
+        produced with love and delivered directly from
+        our farm to your family.
+      </p>
+
+      <div className="hero-buttons">
+
+        <a href="#products" className="primary-btn">
+          Explore Products
+        </a>
+
+        <a
+          href="https://wa.me/919876543210"
+          className="secondary-btn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Order on WhatsApp
+        </a>
+
+      </div>
+
+      <div className="scroll-down">
+        ↓ Scroll Down
+      </div>
+
+    </div>
+
+  </div>
+</section>
       
       {/* Products */}
 <section id="products">
