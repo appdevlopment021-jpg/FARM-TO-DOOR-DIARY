@@ -115,20 +115,7 @@ const products = [
   </div>
 </section>
 
-      {/* About */}
-<section id="about">
-  <h2 className="section-title">About Vrinda Farms</h2>
-
-  <div className="about">
-    <p>
-      At <strong>Vrinda Farms</strong>, we believe that every family deserves
-      fresh, pure, and nutritious dairy products. Our cows are cared for with
-      love, fed with quality fodder, and raised in a clean environment. From
-      fresh milk to handcrafted ghee, paneer, butter, and curd, every product
-      is prepared with care and delivered with freshness you can trust.
-    </p>
-  </div>
-</section>
+     
       
      
 
@@ -163,59 +150,6 @@ const products = [
     ))}
   </div>
 </section>
-
-{/* Why Choose Us */}
-<section className="why-us">
-
-  <h2 className="section-title">
-    Why Choose Vrinda Farms?
-  </h2>
-
-  <p className="why-subtitle">
-    We are committed to delivering fresh, healthy and premium dairy
-    products with the highest standards of hygiene and care.
-  </p>
-
-  <div className="features">
-
-    <div className="feature-card">
-      <div className="feature-icon">🐄</div>
-      <h3>Healthy Cows</h3>
-      <p>
-        Our cows are well cared for and fed with nutritious fodder,
-        ensuring healthy and quality milk.
-      </p>
-    </div>
-
-    <div className="feature-card">
-      <div className="feature-icon">🌿</div>
-      <h3>100% Natural</h3>
-      <p>
-        No preservatives. No artificial additives. Just pure farm-fresh
-        dairy products.
-      </p>
-    </div>
-
-    <div className="feature-card">
-      <div className="feature-icon">🚚</div>
-      <h3>Fresh Delivery</h3>
-      <p>
-        Milk and dairy products are delivered fresh from our farm every day.
-      </p>
-    </div>
-
-    <div className="feature-card">
-      <div className="feature-icon">❤️</div>
-      <h3>Hygienically Processed</h3>
-      <p>
-        Every product is prepared and packed with strict hygiene standards.
-      </p>
-    </div>
-
-  </div>
-
-</section>
-
 {/* Why Choose Us */}
 <section className="why-us">
   <h2 className="section-title">Why Choose Vrinda Farms?</h2>
@@ -239,8 +173,8 @@ const products = [
       <div className="feature-icon">🌿</div>
       <h3>100% Natural</h3>
       <p>
-        We never use artificial preservatives. Every dairy product is
-        prepared naturally with freshness you can trust.
+        No preservatives. No artificial additives. Just pure farm-fresh
+        dairy products.
       </p>
     </div>
 
@@ -257,17 +191,14 @@ const products = [
       <div className="feature-icon">❤️</div>
       <h3>Hygienically Processed</h3>
       <p>
-        Every product is prepared, packed, and handled under strict
-        hygienic conditions to ensure quality and safety.
+        Every product is prepared and packed under strict hygiene
+        standards to ensure quality and safety.
       </p>
     </div>
   </div>
 </section>
-      
+
 {/* Gallery */}
-<section id="gallery" className="premium-gallery">
-  
-      {/* Gallery */}
 <section id="gallery" className="premium-gallery">
   <h2 className="section-title">Life at VRINDA FARMS</h2>
 
