@@ -488,3 +488,193 @@ font-size:32px;
 .gallery-card:hover img {
   transform: scale(1.1);
 }
+
+/* ===========================
+   PREMIUM PRODUCT CARDS
+=========================== */
+
+.product-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    transition:.4s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+}
+
+.badge{
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    background:#2E7D32;
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:30px;
+
+    font-size:14px;
+    font-weight:bold;
+
+    z-index:5;
+}
+
+.product-content{
+    padding:20px;
+    text-align:center;
+}
+
+.order-btn{
+    display:inline-block;
+
+    margin-top:18px;
+
+    background:#2E7D32;
+    color:white;
+
+    padding:12px 24px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.order-btn:hover{
+    background:#1B5E20;
+}
+
+/* ===========================
+   WHY CHOOSE US
+=========================== */
+
+.why-us{
+    padding:90px 8%;
+    background:#f4fff6;
+}
+
+.why-subtitle{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+    margin-bottom:60px;
+
+    font-size:20px;
+    color:#666;
+}
+
+.features{
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.feature-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.feature-icon{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h3{
+
+    color:#0f766e;
+
+    margin-bottom:15px;
+
+}
+
+.feature-card p{
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+/* ===========================
+   STATISTICS
+=========================== */
+
+.stats{
+
+    padding:80px 8%;
+
+    background:linear-gradient(135deg,#0f766e,#15803d);
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+}
+
+.stat-card{
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    color:white;
+
+    transition:.4s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat-card h2{
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+    font-size:18px;
+
+}
