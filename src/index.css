@@ -385,18 +385,53 @@ footer {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 38px;
-  }
+@media (max-width:768px){
 
-  nav {
-    display: none;
-  }
+.hero-card{
 
-  .section-title {
-    font-size: 32px;
-  }
+padding:35px;
+
+}
+
+.hero-card h1{
+
+font-size:38px;
+
+}
+
+.hero-card p{
+
+font-size:18px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
+
+.primary-btn,
+.secondary-btn{
+
+width:220px;
+
+margin:auto;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+.section-title{
+
+font-size:32px;
+
+}
+
 }
 
 .price {
