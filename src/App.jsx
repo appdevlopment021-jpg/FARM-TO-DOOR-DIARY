@@ -11,31 +11,37 @@ const products = [
     name: "Fresh Milk",
     price: "₹70 / Litre",
     image: "/images/milk.jpg",
+    badge: "🥛 Fresh Today",
   },
   {
     name: "Curd",
     price: "₹100 / Kg",
     image: "/images/curd.jpg",
+    badge: "🌿 Farm Fresh",
   },
   {
     name: "Pure Ghee",
     price: "₹900 / Litre",
     image: "/images/ghee.jpg",
+    badge: "⭐ Best Seller",
   },
   {
     name: "Paneer",
     price: "₹380 / Kg",
     image: "/images/paneer.jpg",
+    badge: "🧀 Homemade",
   },
   {
     name: "Butter",
     price: "₹550 / Kg",
     image: "/images/butter.jpg",
+    badge: "🥛 Fresh Churned",
   },
   {
     name: "Cheese",
     price: "₹650 / Kg",
     image: "/images/cheese.jpg",
+    badge: "🧀 Premium",
   },
 ];
 
