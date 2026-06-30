@@ -678,3 +678,109 @@ font-size:32px;
     font-size:18px;
 
 }
+/* =========================
+        CONTACT SECTION
+========================= */
+
+.contact{
+background:linear-gradient(135deg,#0f766e,#14532d);
+
+color:white;
+
+text-align:center;
+
+padding:90px 8%;
+}
+
+.contact .section-title{
+color:white;
+margin-bottom:50px;
+}
+
+.contact-box{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+max-width:1000px;
+
+margin:auto;
+
+margin-bottom:50px;
+
+}
+
+.contact-item{
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(12px);
+
+padding:35px;
+
+border-radius:20px;
+
+transition:.35s;
+
+}
+
+.contact-item:hover{
+
+transform:translateY(-10px);
+
+background:rgba(255,255,255,.18);
+
+}
+
+.contact-item h3{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+}
+
+.contact-item p{
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+.whatsapp-btn{
+
+display:inline-block;
+
+margin-top:10px;
+
+padding:18px 42px;
+
+background:#25D366;
+
+color:white;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:bold;
+
+border-radius:50px;
+
+transition:.3s;
+
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.whatsapp-btn:hover{
+
+transform:translateY(-5px);
+
+background:#1ebe5d;
+
+}
