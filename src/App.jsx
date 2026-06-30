@@ -252,6 +252,54 @@ const products = [
 
 </section>
 
+{/* Why Choose Us */}
+<section className="why-us">
+  <h2 className="section-title">Why Choose Vrinda Farms?</h2>
+
+  <p className="why-subtitle">
+    We are committed to delivering fresh, pure, and high-quality dairy
+    products with love, hygiene, and care from our farm to your family.
+  </p>
+
+  <div className="features">
+    <div className="feature-card">
+      <div className="feature-icon">🐄</div>
+      <h3>Healthy Cows</h3>
+      <p>
+        Our cows are raised in a clean environment and cared for with
+        nutritious feed to produce healthy, fresh milk.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <div className="feature-icon">🌿</div>
+      <h3>100% Natural</h3>
+      <p>
+        We never use artificial preservatives. Every dairy product is
+        prepared naturally with freshness you can trust.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <div className="feature-icon">🚚</div>
+      <h3>Fresh Daily Delivery</h3>
+      <p>
+        Fresh milk and dairy products are delivered directly from our
+        farm to your doorstep every day.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <div className="feature-icon">❤️</div>
+      <h3>Hygienically Processed</h3>
+      <p>
+        Every product is prepared, packed, and handled under strict
+        hygienic conditions to ensure quality and safety.
+      </p>
+    </div>
+  </div>
+</section>
+      
 {/* Gallery */}
 <section id="gallery" className="premium-gallery">
   
