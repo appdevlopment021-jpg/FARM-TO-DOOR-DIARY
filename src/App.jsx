@@ -114,6 +114,21 @@ const products = [
 
   </div>
 </section>
+
+      {/* About */}
+<section id="about">
+  <h2 className="section-title">About Vrinda Farms</h2>
+
+  <div className="about">
+    <p>
+      At <strong>Vrinda Farms</strong>, we believe that every family deserves
+      fresh, pure, and nutritious dairy products. Our cows are cared for with
+      love, fed with quality fodder, and raised in a clean environment. From
+      fresh milk to handcrafted ghee, paneer, butter, and curd, every product
+      is prepared with care and delivered with freshness you can trust.
+    </p>
+  </div>
+</section>
       
       {/* Products */}
 <section id="products">
