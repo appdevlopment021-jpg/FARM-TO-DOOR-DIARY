@@ -55,7 +55,7 @@ const products = [
   {
   name: "Kova",
   price: "₹420 / Kg",
-  image: "/images/khova.jpg",
+  image: "/images/kova.jpg",
   badge: "🥛 Freshly Made",
 },
   {
