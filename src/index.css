@@ -848,3 +848,62 @@ background:#1ebe5d;
     font-weight:bold;
 
 }
+
+/* ===========================
+        NEWSLETTER
+=========================== */
+
+.newsletter{
+    padding:90px 8%;
+    background:linear-gradient(135deg,#14532d,#0f766e);
+    color:white;
+    text-align:center;
+}
+
+.newsletter-content{
+    max-width:700px;
+    margin:auto;
+}
+
+.newsletter h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.newsletter p{
+    font-size:19px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.newsletter-form input{
+    width:320px;
+    padding:16px;
+    border:none;
+    border-radius:50px;
+    font-size:16px;
+}
+
+.newsletter-form button{
+    padding:16px 35px;
+    border:none;
+    border-radius:50px;
+    background:#25D366;
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    transform:translateY(-4px);
+}
+
