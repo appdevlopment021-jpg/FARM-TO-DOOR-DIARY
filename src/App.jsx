@@ -248,7 +248,7 @@ const products = [
   </div>
 
   <div className="stat-card">
-    <h2>200+</h2>
+    <h2>200L+</h2>
     <p>Fresh Milk Daily</p>
   </div>
 
