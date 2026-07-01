@@ -46,6 +46,12 @@ const products = [
     image: "/images/cheese.jpg",
     badge: "🧀 Premium",
   },
+  {
+  name: "Kova",
+  price: "₹420 / Kg",
+  image: "/images/khova.jpg",
+  badge: "🥛 Freshly Made",
+},
 ];
   const [menuOpen, setMenuOpen] = useState(false);
 
