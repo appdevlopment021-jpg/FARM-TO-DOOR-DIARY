@@ -27,7 +27,7 @@ const products = [
   price: "₹90 / Litre",
   image: "/images/buffalo-milk.jpg",
   badge: "🥛 Rich & Creamy",
-},
+  },
   {
     name: "Pure Ghee",
     price: "₹900 / Litre",
