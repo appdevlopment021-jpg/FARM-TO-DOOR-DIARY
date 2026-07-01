@@ -110,7 +110,7 @@ const products = [
         </a>
 
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/9199999999990"
           className="secondary-btn"
           target="_blank"
           rel="noreferrer"
@@ -169,7 +169,7 @@ const products = [
           <p className="price">{product.price}</p>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/9199999999990"
             target="_blank"
             rel="noreferrer"
             className="order-btn"
@@ -315,7 +315,7 @@ const products = [
 
     <div className="contact-item">
       <h3>📞 Phone</h3>
-      <p>+91 9876543210</p>
+      <p>+91 99999999990</p>
     </div>
 
     <div className="contact-item">
@@ -326,7 +326,7 @@ const products = [
   </div>
 
   <a
-    href="https://wa.me/919876543210"
+    href="https://wa.me/9199999999990"
     className="whatsapp-btn"
     target="_blank"
     rel="noreferrer"
@@ -366,7 +366,7 @@ const products = [
 
       {/* Floating WhatsApp */}
 <a
-  href="https://wa.me/919876543210"
+  href="https://wa.me/9199999999990"
   className="floating-whatsapp"
   target="_blank"
   rel="noreferrer"
