@@ -38,9 +38,10 @@ header {
   align-items: center;
   gap: 12px;
   font-size: 30px;
-  font-weight: bold;
-  color: #F5F5DC;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  font-weight: 800;
+  color: #FDF6E3; /* Premium Cream White */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
 }
 
 .logo img {
