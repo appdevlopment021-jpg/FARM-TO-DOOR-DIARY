@@ -23,6 +23,12 @@ const products = [
     badge: "🌿 Farm Fresh",
   },
   {
+  name: "Buffalo Milk",
+  price: "₹90 / Litre",
+  image: "/images/buffalo-milk.jpg",
+  badge: "🥛 Rich & Creamy",
+},
+  {
     name: "Pure Ghee",
     price: "₹900 / Litre",
     image: "/images/ghee.jpg",
@@ -51,6 +57,12 @@ const products = [
   price: "₹420 / Kg",
   image: "/images/khova.jpg",
   badge: "🥛 Freshly Made",
+},
+  {
+  name: "Lassi",
+  price: "₹40 / Bottle",
+  image: "/images/lassi.jpg",
+  badge: "🥤 Traditional",
 },
 ];
   const [menuOpen, setMenuOpen] = useState(false);
