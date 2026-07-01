@@ -233,7 +233,7 @@ const products = [
 <section className="stats">
 
   <div className="stat-card">
-    <h2>500+</h2>
+    <h2>2000+</h2>
     <p>Happy Customers</p>
   </div>
 
@@ -248,7 +248,7 @@ const products = [
   </div>
 
   <div className="stat-card">
-    <h2>300L+</h2>
+    <h2>200+</h2>
     <p>Fresh Milk Daily</p>
   </div>
 
