@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function App() {
+  
   const gallery = [
   "/images/farm1.jpg",
   "/images/farm2.jpg",
@@ -44,23 +47,34 @@ const products = [
     badge: "🧀 Premium",
   },
 ];
+  const [menuOpen, setMenuOpen] = useState(false);
+
 
   return (
     <div>
       {/* Header */}
-      <header>
-        <div className="logo">
-  <img src="/images/logo.png" alt="Vrinda Farms Logo" />
-  <span>VRINDA FARMS</span>
-</div>
+  <header>
 
-        <nav>
-          <a href="#about">About</a>
-          <a href="#products">Products</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+  <div className="logo">
+    <img src="/images/logo.png" alt="Vrinda Farms Logo" />
+    <span>VRINDA FARMS</span>
+  </div>
+
+  <div
+    className="menu-toggle"
+    onClick={() => setMenuOpen(!menuOpen)}
+  >
+    ☰
+  </div>
+
+  <nav className={menuOpen ? "nav active" : "nav"}>
+    <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+    <a href="#products" onClick={() => setMenuOpen(false)}>Products</a>
+    <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
+    <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+  </nav>
+
+</header>
 
   {/* Hero */}
 <section
