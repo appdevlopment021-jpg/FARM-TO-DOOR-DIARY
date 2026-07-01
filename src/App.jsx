@@ -214,6 +214,31 @@ const products = [
     </div>
   </div>
 </section>
+      
+      {/* Statistics */}
+<section className="stats">
+
+  <div className="stat-card">
+    <h2>500+</h2>
+    <p>Happy Customers</p>
+  </div>
+
+  <div className="stat-card">
+    <h2>50+</h2>
+    <p>Healthy Cows</p>
+  </div>
+
+  <div className="stat-card">
+    <h2>10+</h2>
+    <p>Years of Experience</p>
+  </div>
+
+  <div className="stat-card">
+    <h2>300L+</h2>
+    <p>Fresh Milk Daily</p>
+  </div>
+
+</section>
 
 {/* Gallery */}
 <section id="gallery" className="premium-gallery">
@@ -228,6 +253,39 @@ const products = [
   </div>
 </section>
 
+      {/* Testimonials */}
+<section className="testimonials">
+  <h2 className="section-title">What Our Customers Say</h2>
+
+  <div className="testimonial-grid">
+
+    <div className="testimonial-card">
+      <p>
+        "Fresh milk every morning. Excellent quality and great service!"
+      </p>
+      <h4>★★★★★</h4>
+      <span>— Ramesh Kumar</span>
+    </div>
+
+    <div className="testimonial-card">
+      <p>
+        "The ghee tastes exactly like homemade. My family loves it."
+      </p>
+      <h4>★★★★★</h4>
+      <span>— Priya Sharma</span>
+    </div>
+
+    <div className="testimonial-card">
+      <p>
+        "Very hygienic dairy products with fast delivery."
+      </p>
+      <h4>★★★★★</h4>
+      <span>— Suresh Reddy</span>
+    </div>
+
+  </div>
+</section>
+      
 
     {/* Contact */}
 <section id="contact" className="contact">
