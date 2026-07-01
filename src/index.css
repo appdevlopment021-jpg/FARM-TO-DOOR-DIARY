@@ -36,14 +36,14 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 30px;
-  font-weight: 800;
-  color: #FDF6E3; /* Premium Cream White */
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-  letter-spacing: 1px;
+  gap: 15px;
+  font-size: 34px;
+  font-weight: 900;
+  color: #FFF8E7;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
-
 .logo img {
   width: 55px;
   height: 55px;
