@@ -322,9 +322,44 @@ const products = [
 
 </section>
 
+      {/* Newsletter */}
+<section className="newsletter">
+  <div className="newsletter-content">
+    <h2>Stay Connected with Vrinda Farms</h2>
+
+    <p>
+      Subscribe to receive updates about fresh dairy products,
+      special offers, and seasonal farm news.
+    </p>
+
+    <form className="newsletter-form">
+      <input
+        type="email"
+        placeholder="Enter your email"
+      />
+
+      <button type="submit">
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+      
+
       <footer>
         © 2026 VRINDA FARMS | Fresh Dairy Products
       </footer>
+
+      {/* Floating WhatsApp */}
+<a
+  href="https://wa.me/919876543210"
+  className="floating-whatsapp"
+  target="_blank"
+  rel="noreferrer"
+>
+  💬
+</a>
+      
     </div>
   );
 }
